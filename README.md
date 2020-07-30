@@ -1,28 +1,25 @@
 # Face-recognition:
-# Steps to build this project:
-# Execution:
-# Description
-# Packages required
-# about the haarcascade file
-OpenCV is a library of programming functions mainly aimed at real-time computer vision.
+Face recognition is a method of identifying or verifying the identity of an individual using their face. Face recognition systems can be used to identify people in photos, video, or in real-time
+
+# Packages required:
+(a) opencv : It is a library of programming functions mainly aimed at real-time computer vision.
+
+# About the haarcascade file:
+In this project we will be using the haarcascade_frontalface_default.xml which is a haar cascade designed by OpenCV to detect the frontal face. This haar cascade is available on github. A Haar Cascade works by training the cascade on thousands of negative images with the positive image superimposed on it.
+
 ![p](https://user-images.githubusercontent.com/68856803/88895856-a67e1780-d266-11ea-8f70-88e1ae3223b7.png)
 
-To build our face recognition system, we’ll first perform face detection, 
-extract face embeddings from each face using deep learning, 
-train a face recognition model on the embeddings, 
-and then finally recognize faces in both images and video streams with OpenCV.
+# Steps to build this project
+(a) Import the required libraries
+(b) Include the haarcascade_frontalface_default.xml
+(c)  Open the inbuilt Camera
+(d) Now we will capture the frames from the camera
+(e) Get the gray scaled image
+(f) Draw a rectangle around the faces
+(g) Display the resulting frame i.e, the output
+(h) When everything is done, release the capture
 
-While we used OpenCV to facilitate face recognition, OpenCV itself was not responsible 
-for identifying faces.
+# Execution:
+run the program by using the following command:
 
-* First we need to install all the required libraries:
-  make sure that you are in the correct directory;
-  type the command:
-  (1) pip install -r requirements.txt
-
-* Then you need to run the program by using the following command:
-  (2) python face_rec.py
-
-* We have saved the pictures of few known personalities. If the test image contains the
-  image of them, then the name will be displyed along with the square around their face; 
-  Else 'unknown' will be seen along with the square around their face 
+-> python face_rec.py
