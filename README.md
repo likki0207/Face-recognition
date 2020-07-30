@@ -11,12 +11,19 @@ In this project we will be using the haarcascade_frontalface_default.xml which i
 
 # Steps to build this project
 (a) Import the required libraries
+
 (b) Include the haarcascade_frontalface_default.xml
+
 (c)  Open the inbuilt Camera
+
 (d) Now we will capture the frames from the camera
+
 (e) Get the gray scaled image
+
 (f) Draw a rectangle around the faces
+
 (g) Display the resulting frame i.e, the output
+
 (h) When everything is done, release the capture
 
 # Execution:
