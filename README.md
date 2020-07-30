@@ -1,5 +1,6 @@
 # Face-recognition
 OpenCV is a library of programming functions mainly aimed at real-time computer vision.
+![p](https://user-images.githubusercontent.com/68856803/88895856-a67e1780-d266-11ea-8f70-88e1ae3223b7.png)
 
 To build our face recognition system, we’ll first perform face detection, 
 extract face embeddings from each face using deep learning, 
